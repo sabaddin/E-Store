@@ -1,0 +1,1695 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.humbur{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #f5f5f5;
+}
+header{
+    background-color: white !important;
+}
+.head_Section_One{
+    padding-top: 5px;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    height: auto;
+}
+.head_Section_One div{
+
+    display: flex;
+    justify-content: space-between;
+}
+.div_width{
+    max-width: 82%;
+    margin: 0 auto;
+}
+.spanUsd{
+    border: none;
+    background-color:  #f5f5f5;
+
+}
+.div_span span{
+    margin-right: 20px;
+
+}
+.div_span img{
+    margin-right: 5px;
+}
+.logo img{
+    max-width: 90%;
+    height: auto;
+}
+.logo img:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.head_Section_Two{
+    padding-top: 10px;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.input-group{
+    margin:10px 5px 0 25px;
+    height: auto;
+    max-width: 95%;
+}
+.input-group select option{
+    background-color: white;
+}
+.input-group select{
+    text-align: center;
+    max-width: 30%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #f5f5f5;
+    border: none;
+
+}
+.input-group input{
+    background-color: #f5f5f5;
+    border: none;
+    
+}
+.input-group button{
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.fire h6{
+    font-size: 20px;
+    margin: 10px 0 0 10px
+
+}
+.fire{
+    
+    width: 100%;
+    height: 40px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+  margin-top: 10px;
+    transition: 1s;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example{
+  0%   {color:blue; }
+}
+
+.head_Section_Tree{
+    width: 100%;
+    height: 5%;
+}
+
+.drpdown {
+    position: relative;
+
+  }
+  .drpdown_content {
+  
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+   
+  }
+  .show {display: none;}
+
+.categories{
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+
+    
+}
+.pass_right_text{
+    display: none;
+    padding: 10px;
+    position: absolute;
+    width: 50%;
+    height: 70vh;
+    top: 28%;
+    left: 25%;
+    border:1px solid rgb(196, 193, 193);
+    z-index: 999;
+    background-color: white;
+  
+    
+
+}
+
+
+
+
+.colm{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+    
+}
+.colm h6:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.colm ul li{
+    margin-top: 14px;
+}
+.colm ul li:hover{
+color: blue;
+cursor: pointer;
+}
+
+ul{
+    padding: 0;
+}
+del{
+    text-decoration: line-through;
+    color:grey;
+}
+
+.secCam{
+    display: flex;
+    margin-top: 20px;
+   
+}
+.airphone{
+    margin-top: 2%;
+    display: flex;
+}
+.allDropdown{
+   padding: 0%;
+  display: none;
+    border-radius: 5px;
+    width: 255px;
+    height: auto;
+    top: 28%;
+    left: 125px;
+    border: 1px solid rgb(157, 157, 157);
+    background-color: white;
+}
+
+.allDropdown ul{
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    background-color: white;
+
+}
+.allDropdown li{
+margin-top: 23px;
+}
+.allDropdown li:hover{
+    color: blue;
+    cursor: pointer;
+    
+}
+
+.allDropdown li i{
+  font-size: 12px;
+    padding: 0 0 0 75%;
+}
+.categories h6{
+    transition: 1s;
+    font-size: 18px;
+    margin-left: 10%;
+    font-weight: normal;
+}
+.categories img{
+    width: 15%;
+  
+}
+.menu ul{ 
+     padding: 0;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.special{
+    margin-top: 30px;
+}
+
+
+ 
+ 
+.menu ul li{
+    cursor: pointer;
+    margin-right: 5%;
+}
+.sign{
+   
+    padding: 0;
+}
+.signIn{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.user{
+    text-align: center;
+
+ width: 35%;
+}
+.user img{
+width: 17%;
+margin-right: 5%;
+
+}
+.heart{
+    text-align: center;
+
+    width: 35%;
+}
+.heart img{
+    width: 17%;
+    margin-right: 5%;
+  
+}
+.cart img{
+    width: 22%;
+    margin-right: 5%;
+}
+.cart{
+    text-align: center;
+    width: 25%;
+}
+
+
+.drpbtn {
+   
+    color: black;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+   background-color: white;
+    
+    
+  }
+ 
+  .carousel-item{
+    height: 520px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    z-index: 999;
+}
+
+  .dropdown-content a {
+    color: black;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    background-color: white;
+  }
+  
+  
+  .dropdown-content a:hover {color: blue;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .div_man{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .div_special{
+    max-height: 500px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .categories-btn > i{
+    margin-right: 12px;
+    color: blue;
+}
+.carousel-item{
+    position: relative;
+    height: auto;
+}
+
+.carousel-item > .title{
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    left: 5%;
+}
+.carousel-btn{
+    background: #015ade;
+    border: none;
+    width: 42%;
+    padding: 14px;
+    border-radius: 25px;
+    color: #fff;
+}
+.carousel-btn:hover{
+    background-color: #fff;
+    color: blue;
+    transition: 0.8s;
+}
+.btn-indicator{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.div_item{
+   
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+ 
+  
+
+}
+
+.div_item img{
+   width: 100%;
+   height: auto;
+    border-radius: 10px;
+    
+}
+
+
+.buton{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+    height: 70%;
+    color: white;
+}
+.btnr{
+    width: auto;
+    height: auto;
+}
+.buton button{
+    width: 50%;
+    height: 8pvh;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+.buton {
+    animation-name: txtfade;
+    animation-duration: 2.5s;
+  }
+
+  
+  @keyframes txtfade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+
+
+
+.div_item {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+
+  
+  @keyframes fade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+.buton div h1{
+    text-align: none;
+}
+
+.buton button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.div_man{
+    height: auto;
+}
+.div_man img {
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.arPhnMan{
+  margin-bottom: 47px;
+   position: relative;
+   z-index: 1;
+   height: auto;
+}
+.arPhnMan img{
+    height: auto;
+}
+ .laptop{  
+ position: relative;
+}
+.divman_text{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 5%;
+    left: 5%;
+    top: 5%;
+    bottom: 5%;
+    color: white;
+    transition: 0.5s;
+
+}
+.divman_text:hover{
+    background: rgba(152, 151, 151, 0.5);
+
+}
+
+
+.iphone{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.iphone img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.iphone span{
+    position: absolute;
+    background-color: #fbb509;
+    border-radius: 50px;
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    top: 15px;
+    left: 15px;
+}
+.iphone div{
+    color: #fbb509;
+    font-size: 12px;
+}
+.iphone h5:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.iphone_hover:hover {
+   opacity: 1;
+}
+
+.iphone_hover{
+    border-radius: 10px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.5s;
+   
+}
+.iphone_hover img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.iphone_hover span{
+   
+    position: absolute;
+    background-color: #fbb509;
+    border-radius: 50px;
+    width: 50px;
+    text-align: center;
+    color: black;
+    top: 15px;
+    left: 15px;
+}
+.iphone_hover div{
+    color: #fbb509;
+    font-size: 12px;
+    
+}
+.iphone_icon{
+    display: flex;
+    position: absolute;
+   top: 65%;
+   left: 18%;
+   width: 15%;
+    
+}
+.iphone_icon img{
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 15%;
+    padding: 7px;
+}
+
+.iphone_icon img:hover{
+    background-color: rgb(96, 96, 241);
+   
+}
+  
+
+.topCatogories{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+.top{
+    padding:  5% 3% 7% 5%;
+}
+.line{
+    margin: 17px 1% 3% 0%;
+    
+    width: 40px;
+    height: 5px;
+    background-color: blue;
+    
+}
+
+.qulaqliqIcon{
+   
+    width: 100%;
+    height: auto;
+}
+.qulaq:hover,img:hover{
+    background-color: rgb(81, 81, 250);
+    color: white;
+}
+.qulaq{
+    margin: 20px 0 20px 40px;
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    padding: 15%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.show_saat img{
+    width: 100%;
+    height: auto;
+}
+.show_saat{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.txt_saat{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+.txt_saat span{
+
+    font-size: 30px;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+.bestDeal{
+    margin-top: 50px;
+    max-height: auto;
+}
+.bestHead{
+    display: flex;
+    position: relative;
+    padding: 30px 30px 30px 0;
+}
+
+#gallery-popup .modal-img {
+width: 100%;
+}
+
+
+
+.specialPraduct .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+
+.specialPraduct .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.specialPraduct .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.specialPraduct .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+
+
+
+
+
+
+.div_categories .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+.div_categories .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.div_categories .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.div_categories .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+
+
+.featur_pro .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+.featur_pro .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.featur_pro .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.featur_pro .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+
+
+
+
+
+.best_Deals .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+.best_Deals .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.best_Deals .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.best_Deals .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+
+
+  .line_best{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: blue;
+  }
+  
+  .div_ayak{
+    position: relative;
+    height: 100vh;
+    
+  }
+  .div_ayak img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+
+  }
+  .text_opac{
+    width: 95%;
+    height: 72vh;
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    transition: 0.5s;
+    color: white;
+    padding-top: 50px;
+    
+
+  }
+  .text_opac button{
+    background-color: blue;
+    color: white;
+    width: 35%;
+    height: 10%;
+    border-radius: 50px;
+    border: none;
+  }
+  .text_opac h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .text_opac button:hover{
+    background-color: white !important;
+    color: blue;
+  }
+.text_opac:hover{
+    background: rgba(152, 151, 151, 0.5);
+
+  
+
+}
+.review{
+    background-color: white;
+    height: 350px;
+    z-index: 1;
+}
+
+.patil{
+    position: relative;
+    text-align: center;
+    border: 1px solid rgb(195, 192, 192);
+    background-color: white;
+    color: grey;
+    width: 100%;
+    height: 280px;
+    margin-top: 100px;
+    border-radius: 10px;
+
+ 
+    
+}
+.div_patil{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: auto;
+   
+}
+.div_patil p{
+    line-height: 2.2;
+}
+.fetured{
+    margin-top: 150px;
+}
+
+.click_list{
+    display: flex;
+   
+}
+.click_list h5{
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.div_speaker{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.speaker img{
+    width: 100%;
+    height: 300px;
+border-radius: 10px;
+}
+.speaker{
+    position: relative;
+   
+}
+.text_speaker{
+   width: auto;
+   height: auto;
+   color: white;
+   z-index: 1;
+}
+
+
+.text_speak_hov{
+   
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 36vh;
+    
+    transition: .5s;
+   
+}
+.text_speak_hov:hover{
+    background: rgba(152, 151, 151, 0.5);
+}
+
+.text_speaker h3{
+    margin-top: 15px;
+}
+
+.text_speaker .text_speak_hov button{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.text_speaker .text_speak_hov button:hover{
+    background-color: white;
+    color: blue;
+}
+.div_icon{
+   
+    height: 30vh;
+    background-color: white;
+}
+.div_icone .item img{
+    margin: 35%  auto 0 auto;
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    
+}
+.div_icone .item img:hover{
+    background-color: white;
+}
+.div_TV1{
+    position: relative;
+}
+.div_TV1 img{
+   margin-top: 30px;
+  width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+.text_TV1{
+    width: 100%;
+    height: auto;
+}
+.text_TV1 button{
+    content: " ";
+    margin-top: 5%;
+    width: 40%;
+    height: 7vh;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+}
+.div_hove{
+    
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    width: 94%;
+    height: 54vh;
+    transition: .5s;
+    
+   
+}
+.div_hove:hover{
+    background: rgba(152, 151, 151, 0.5);
+
+   
+}
+
+.text_TV1 button:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+.div_TV{
+     position: relative;
+}
+.div_TV img{
+    margin-top: 30px;
+   width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text_TV1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    top: 10%;
+}
+.text_TV2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    top: 20%;
+}
+.tv2_input input{
+    background-color: white;
+    width: 70%;
+    height: 7vh;
+    border: none;
+    padding: 5%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.tv2_input button{
+    width: 20%;
+    height: 7vh;
+    background-color: rgb(54, 134, 239);
+    border: none;
+   margin-left: -5px;
+   padding: 0;
+   border-bottom-right-radius: 50px;
+   border-top-right-radius: 50px;
+   color: white;
+   transition: 0.4s;
+}
+.tv2_input button:hover{
+    background-color: black;
+    
+}
+
+
+
+
+.topRated .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+.topRated .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.topRated .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.topRated .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+
+
+
+
+.latestBlog .owl-nav .owl-prev{
+    position: absolute;
+    top: -70px;
+    right: 90px;
+   transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0;
+}
+
+.latestBlog .owl-nav .owl-prev:hover {
+    background-color: blue !important;
+    
+}
+
+.latestBlog .owl-nav .owl-next{
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0;
+
+}
+.latestBlog .owl-nav .owl-next:hover {
+    background-color: blue !important;
+   
+}
+.latest{
+    margin-top: 100px;
+}
+.bloge{
+    position: relative;
+    width: 99%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    line-height: 2;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.div_popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: none;
+
+}
+.div_popup span{
+    position: absolute;
+    top: 0%; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+.latest .div_popup img{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+    
+}
+
+
+
+
+.div_photos{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.dote{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    left: 40%;
+    top:40%;
+    width: 100%;
+    height: auto;
+   
+  
+}
+.div_hov{
+    position: absolute;
+    background: rgba(152, 151, 151, 0.5);
+    width: 100%;
+    height: 35vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+  
+}
+.div_hov:hover{
+    opacity: 1;
+
+}
+.dote div{
+    width: 10%;
+    height:5vh;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin: 1%;
+
+}
+.dote div:hover{
+    background-color: blue;
+    
+}
+
+
+.date{
+position: absolute;
+text-align: center;
+top: 20px;
+left: 0;
+width: 35%;
+height: 10%;
+background-color: blue;
+color: white;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+
+
+.admin{
+    padding: 15px;
+}
+
+
+
+.latest{
+    background-color: white;
+    height: auto;
+}
+
+.div_delivery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+  .div_delivery>div{
+    display: flex;
+   
+ max-width: 100%;
+    
+
+  }
+
+  .div_delivery div img{
+    width: 20%;
+    height: 7vh;
+    margin-right: 5%;
+  }
+  footer{
+    margin-top: 50px;
+  }
+  .footlogo p{
+    line-height: 2;
+    font-size: 18px;
+  }
+  .footlogo>img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .application img{
+    max-width: 25%;
+    max-height: 10vh;
+    margin-left: 3%;
+  }
+  .footline{
+    background-color: blue;
+    width: 130px;
+    height: 3px;
+  }
+  .application {
+    margin-top: 30px;
+  }
+  .application{
+   display: flex;
+  }
+  .applicationi{
+    display: flex;
+    margin-top: 50px;
+  }
+  .information{
+    margin-bottom: 100px;
+  }
+  .applicationi i{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+    transition: 0.5s;
+  }
+  .applicationi i:hover{
+    background-color: blue;
+    color: white;
+  }
+  .footIcon i{
+    margin-top: 20px;
+font-size: 27px;
+color: rgb(93, 93, 250);
+  }
+ .electronic{
+    display: flex;
+    margin-top: 50px;
+ } 
+ .electronic span{
+    margin: 10px;
+ }
+ .footcard{
+    display: flex;
+    justify-content: space-between;
+ }
+ .electronic p span:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+.info p:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+/* ---------------scroll ------------------ */
+
+
+body {
+    height: auto;
+    
+  }
+  body h1 {
+    text-align: center;
+    font-family: "Arial";
+  }
+  
+  #scrollToTop {
+    position: fixed;
+    bottom: 7rem;
+    right: 5rem;
+    box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-family: "Arial";
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -12rem;
+    transition: margin-bottom 0.2s;
+    z-index: 99;
+  }
+  #scrollToTop img{
+    width: 40px;
+    height: 40px;
+  }
+  #scrollToTop img:hover{
+    background-color: white;
+    cursor: pointer;
+  }
+  #scrollToTop.active {
+    margin-bottom: 0;
+  }
+
+
+  /*--------------message -------------- */
+
+  .message{
+display: none;
+    position: fixed;
+    bottom: 160px;
+    right: 30px;
+    width: 20%;
+    height: 70vh;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+  }
+  .message button{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    background-color: #00a3ff;
+    color: white;
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+    border: none;
+
+  }
+  .divhead{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .had{
+  
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   
+  }
+  .had button{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: white;
+  }
+  .had h6{
+    margin-top: 10px;
+  }
+  .had div i{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .bots{
+    display: flex;
+  }
+  .bots span{
+    width: 30px;
+    height: 30px;
+    background-color: #00a3ff;  
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .mesaj div{
+    display: flex;
+    padding: 10px;
+  }
+  .mesaj div span{
+    width: 30px;
+    height: 30px;
+    background-color: #00a3ff;  
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+.txt_hi{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    font-size: 18px;
+}
+
+.chat_txt{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #00a3ff;
+    color: white;
+    z-index: 99;
+    padding: 25px;
+}
+.chat_btn i{
+    font-size: 25px;
+    color: white;
+    background-color: #00a3ff;
+    
+}
+.chat_btn{
+    border: none;
+}
+
+
+
+
+/* -----------Alert ------------------ */
+
+
+#sign-in-bg{
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 429em;
+    z-index: 3;
+    opacity: 0.6;
+    display: none;
+}
+.login{
+    display: none;
+    top: 14%;
+    position: fixed;
+    z-index: 3;
+    background: #fff;
+    width: 30%;
+    right: 35%;
+    height: auto;
+    padding: 30px;
+}
+.login .close-login-btn{
+    position: absolute;
+    margin-left: 0;
+    /* top: 0; */
+    border-radius: 50%;
+    padding: 3px 10px;
+    bottom: 96%;
+    background: black;
+    color: #fff;
+    left: 95%;
+    border: 2px solid #fff;
+}
+.login .email{
+    border: 1px solid #b5afaf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login .email input{
+    border: none;
+    width: 100%;
+}
+.login .email input:focus{
+    outline: none;
+}
+.login .name{
+    margin-top: 15px;
+    border: 1px solid #b5afaf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login .name input{
+    border: none;
+    width: 100%;
+}
+.login .name input:focus{
+    outline: none;
+}
+.login button{
+    width: 100%;
+    border: none;
+    background: #1515ff;
+    color: #fff;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.login button:hover{
+    background-color: black;
+    color: #fff;
+}
+.live-chat{
+    right: -235px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 2;
+}
